@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: dashed; */
+}
+
+
+body {
+    background-color:rgb(231, 162, 116)
+  
+}
+/* the main container */
+
+.front-side,
+.back-side {
+  width: 390px;
+  height: 200px;
+  position: relative;
+  /* adjust this to space out the cards */
+  margin: 20px auto;
+  overflow: hidden;
+  box-shadow: 2px 5px 15px 0px #17161694;
+  background-color: #a93c57; 
+  background-repeat: no-repeat;
+  background-image: url("/assets/back.svg");
+  background-size: 390px;  
+  padding-bottom:30px;
+}
+
+.front-side{
+  background-color: #f8a256;
+  background-repeat: no-repeat;
+  background-image: url("/assets/front-again2.svg");
+  background-size: 495px;  
+  padding-bottom:10px;
+}
+
+
+
+.secondary{
+  display: grid;
+  position: relative;
+  margin-left:30px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  padding-left: 60px;
+  
+  /* padding-top: -20px; */
+  
+}
+
+.linkedin{
+  display:grid;
+  margin-left: 87px;
+  width: 10%;
+  padding-top:5px;
+  padding-bottom:38px;
+  /* height: 65px; */
+  /* padding-top: -20px; */
+  /* padding-bottom: -80px; */
+  /* margin-bottom: 20px; */
+  /* grid-template-rows: 1fr;
+  grid-template-columns: 1fr;
+  padding-left: 20px; */
+
+
+}
+
+.email{
+  display:grid;
+  margin-left: 87px;
+  width: 10%;
+  padding-top: 7px;
+  /* height: 65px; */
+  /* grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr; */
+}
+
+.instagram{
+  display:grid;
+  margin-left: 87px;
+  width: 10%;
+  padding-top: -25px;
+  /* height: 70px; */
+  
+  /* grid-template-rows: 1fr;
+  grid-template-columns: 1fr; */
+  
+}
+
+
+h2{
+  text-align-last: right;
+
+  padding-right: 10px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+  padding-top: 20px;
+  color:white;
+}
+h6{
+  text-align-last: right;
+
+  padding-right: 10px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+  padding-top: 5px;
+  color:white;
+}
+
+
+
